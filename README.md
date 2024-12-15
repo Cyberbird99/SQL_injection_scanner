@@ -1,6 +1,7 @@
 
     This is a basic example of a SQL Injection scanner. It only looks for common SQL error messages, which is a limited approach.
-    Scans a webpage (in this case, Google) for HTML form elements.
+    Scans a webpage for HTML form elements.
+    
     This script:
     Tests these forms by injecting common SQL injection characters (" and ') into the form fields.
     Sends the form data back to the server, either via POST or GET requests.
